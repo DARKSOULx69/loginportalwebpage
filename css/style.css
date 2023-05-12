@@ -1,0 +1,115 @@
+html, body {
+    background-image: url("https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* h1 {
+    color: #FFFFFF;
+} */
+p {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    backdrop-filter: blur(15px);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5%;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+#mobile_number, #email_address, #verificationcode {
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+#submit_button, #verify_button {
+    color: #FFFFFF;
+    background-color: transparent;
+    width: 100%;
+    padding: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+}
+#submit_button:hover, #verify_button:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #FFFFFF40;
+    width: 100%;
+    padding: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+}
+#header_div {
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+}
+#box1 {
+    display: inline-block;
+    vertical-align: middle;
+    float: center;
+    border: 1px solid #FFFFFF;
+    margin: 1%;
+    padding: 2%;
+}
+#box2 {
+    display: inline-block;
+    vertical-align: middle;
+    float: center;
+    border: 1px solid #FFFFFF;
+    margin: 1%;
+    padding: 2%;
+}
+#box3 {
+    display: inline-block;
+    vertical-align: middle;
+    float: center;
+    border: 1px solid #FFFFFF;
+    margin: 1%;
+    padding: 2%;
+}
+#box4 {
+    display: inline-block;
+    vertical-align: middle;
+    float: center;
+    border: 1px solid #FFFFFF;
+    margin: 1%;
+    padding: 2%;
+}
+#box5 {
+    display: inline-block;
+    vertical-align: middle;
+    float: center;
+    border: 1px solid #FFFFFF;
+    margin: 1%;
+    padding: 2%;
+}
+#box6 {
+    display: inline-block;
+    vertical-align: middle;
+    float: center;
+    border: 1px solid #FFFFFF;
+    margin: 1%;
+    padding: 2%;
+}
